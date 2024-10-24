@@ -1,0 +1,115 @@
+.star{
+    color: #D7A82F;
+    font-size: 1.5vw;;
+    
+}
+
+.checkbox-filme {
+    display: none;
+}
+
+.heart-uncheck {
+    font-size: 1.5vw;;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.heart-check {
+    font-size: 1.5vw;
+    color: #BA0707;
+    display: none; 
+    cursor: pointer;
+}
+
+.checkbox-filme:checked ~ .heart-uncheck {
+    display: none;
+}
+
+.checkbox-filme:checked ~ .heart-check {
+    display: inline;
+}
+
+.bi-star-fill{
+    color: #D7A82F;
+}
+
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--fonte-principal);
+}
+
+.movie{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;
+    justify-content: space-between;
+    box-shadow: 4px 4px 15px black;
+    background: #1D1C3B;
+    padding: 2rem 3rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+
+
+    
+
+}
+
+.container__foto_nome{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.container-filme{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.movie-img{
+    border-radius: 800px;
+    width: 10vw;
+    height: 10vw;
+}
+
+.nome-filme{
+    font-weight: 500;
+    font-size: 1.3vw;
+    max-width:95%;
+    line-height: 1.2rem;
+    
+}
+
+.icones-filme{
+    display: flex;
+    align-items: center;
+    font-size: 1.35vw;
+    gap: 3vw;
+}
+
+.container-icone{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.filme-descricao{
+    width: 40vw;
+    font-size: 1.3vw;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+
+
+
+

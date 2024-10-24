@@ -1,0 +1,23 @@
+@import url(./styles/header.css);
+@import url(./styles/movies.css);
+
+
+:root{
+    --branco: #FFFFFF;
+    --background-azul: #17162E;
+    --fonte-principal: "Kumbh Sans";
+}
+
+
+body{
+    background: var(--background-azul);
+    color: var(--branco);
+
+    
+
+}
+
+
+
+
+
