@@ -49,10 +49,10 @@ export function adicionarFilmesNaTela(filmesPopulares){
         checkbox.addEventListener('click', function(){
             if (checkbox.checked){
                 filmesCurtidos.push(filmesPopulares.find(filme => filme.id === Number(checkbox.id)))
-                atualizarCurtidos()
+                atualizarCurtidos(filmesCurtidos)
             } else {
-                filmesCurtidos = filmesCurtidos.filter(filme => filme.id !== Number(checkbox.id))
-                atualizarCurtidos()
+                let novosFilmesCurtidos = filmesCurtidos.filter(filme => filme.id !== Number(checkbox.id))
+                atualizarCurtidos(novosFilmesCurtidos)
             }
             
             
